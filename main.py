@@ -151,7 +151,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await context.bot.send_message(
             chat_id=chat_id, text="This bot works only on @rarefnd group."
         )
-        logger.info("Function: start: This bot works only on @rarefnd group.")
+        logger.error(
+            f"Function: start: This bot works only on @rarefnd group. current chat_id {chat_id}"
+        )
 
 
 async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
