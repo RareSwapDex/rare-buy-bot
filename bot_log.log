@@ -1,0 +1,103 @@
+2024-03-08 06:13:49,028 - __main__ - INFO - Connected to Ethereum blockchain
+2024-03-08 06:13:49,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getMe "HTTP/1.1 200 OK"
+2024-03-08 06:13:49,793 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/deleteWebhook "HTTP/1.1 200 OK"
+2024-03-08 06:13:49,795 - apscheduler.scheduler - INFO - Scheduler started
+2024-03-08 06:13:49,795 - telegram.ext.Application - INFO - Application started
+2024-03-08 06:13:58,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:13:59,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:13:59,666 - apscheduler.scheduler - INFO - Added job "monitoring_active" to job store "default"
+2024-03-08 06:14:09,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:14:09,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:19 UTC)" (scheduled at 2024-03-08 02:14:09.665417+00:00)
+2024-03-08 06:14:09,981 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:19 UTC)" executed successfully
+2024-03-08 06:14:19,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:14:19,665 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:29 UTC)" (scheduled at 2024-03-08 02:14:19.665417+00:00)
+2024-03-08 06:14:21,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:14:22,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:14:22,553 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:29 UTC)" executed successfully
+2024-03-08 06:14:29,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:14:29,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:39 UTC)" (scheduled at 2024-03-08 02:14:29.665417+00:00)
+2024-03-08 06:14:30,181 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:39 UTC)" executed successfully
+2024-03-08 06:14:39,667 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:49 UTC)" (scheduled at 2024-03-08 02:14:39.665417+00:00)
+2024-03-08 06:14:42,470 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:14:43,037 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:14:43,041 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:49 UTC)" executed successfully
+2024-03-08 06:14:49,667 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:59 UTC)" (scheduled at 2024-03-08 02:14:49.665417+00:00)
+2024-03-08 06:14:51,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:14:52,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:14:52,178 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:14:59 UTC)" executed successfully
+2024-03-08 06:14:52,692 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:14:59,665 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:09 UTC)" (scheduled at 2024-03-08 02:14:59.665417+00:00)
+2024-03-08 06:14:59,944 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:09 UTC)" executed successfully
+2024-03-08 06:15:02,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:15:09,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:19 UTC)" (scheduled at 2024-03-08 02:15:09.665417+00:00)
+2024-03-08 06:15:09,964 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:19 UTC)" executed successfully
+2024-03-08 06:15:13,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:15:19,669 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:29 UTC)" (scheduled at 2024-03-08 02:15:19.665417+00:00)
+2024-03-08 06:15:21,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:15:21,527 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:29 UTC)" executed successfully
+2024-03-08 06:15:23,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:15:29,668 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:39 UTC)" (scheduled at 2024-03-08 02:15:29.665417+00:00)
+2024-03-08 06:15:29,986 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:39 UTC)" executed successfully
+2024-03-08 06:15:33,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:15:39,667 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:49 UTC)" (scheduled at 2024-03-08 02:15:39.665417+00:00)
+2024-03-08 06:15:40,012 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:49 UTC)" executed successfully
+2024-03-08 06:15:43,913 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:15:49,679 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:59 UTC)" (scheduled at 2024-03-08 02:15:49.665417+00:00)
+2024-03-08 06:15:50,653 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:15:59 UTC)" executed successfully
+2024-03-08 06:15:54,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:15:59,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:09 UTC)" (scheduled at 2024-03-08 02:15:59.665417+00:00)
+2024-03-08 06:15:59,943 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:09 UTC)" executed successfully
+2024-03-08 06:16:04,319 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:16:09,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:19 UTC)" (scheduled at 2024-03-08 02:16:09.665417+00:00)
+2024-03-08 06:16:10,922 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:19 UTC)" executed successfully
+2024-03-08 06:16:14,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:16:19,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:29 UTC)" (scheduled at 2024-03-08 02:16:19.665417+00:00)
+2024-03-08 06:16:21,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:16:21,100 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:29 UTC)" executed successfully
+2024-03-08 06:16:24,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:16:29,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:39 UTC)" (scheduled at 2024-03-08 02:16:29.665417+00:00)
+2024-03-08 06:16:30,607 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:39 UTC)" executed successfully
+2024-03-08 06:16:34,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:16:39,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:49 UTC)" (scheduled at 2024-03-08 02:16:39.665417+00:00)
+2024-03-08 06:16:40,035 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:49 UTC)" executed successfully
+2024-03-08 06:16:45,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:16:49,667 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:59 UTC)" (scheduled at 2024-03-08 02:16:49.665417+00:00)
+2024-03-08 06:16:50,568 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:16:59 UTC)" executed successfully
+2024-03-08 06:16:55,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:16:59,666 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:17:09 UTC)" (scheduled at 2024-03-08 02:16:59.665417+00:00)
+2024-03-08 06:16:59,958 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:17:09 UTC)" executed successfully
+2024-03-08 06:17:05,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:17:09,667 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:17:19 UTC)" (scheduled at 2024-03-08 02:17:09.665417+00:00)
+2024-03-08 06:17:10,136 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:17:19 UTC)" executed successfully
+2024-03-08 06:17:15,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:17:24,058 - __main__ - INFO - Connected to Ethereum blockchain
+2024-03-08 06:17:24,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getMe "HTTP/1.1 200 OK"
+2024-03-08 06:17:24,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/deleteWebhook "HTTP/1.1 200 OK"
+2024-03-08 06:17:24,993 - apscheduler.scheduler - INFO - Scheduler started
+2024-03-08 06:17:24,994 - telegram.ext.Application - INFO - Application started
+2024-03-08 06:17:31,435 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:17:32,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:17:32,658 - apscheduler.scheduler - INFO - Added job "monitoring_active" to job store "default"
+2024-03-08 06:17:32,659 - __main__ - INFO - Function: start: Monitoring for buys has started.
+2024-03-08 06:17:42,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:17:42,658 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:17:52 UTC)" (scheduled at 2024-03-08 02:17:42.656943+00:00)
+2024-03-08 06:17:43,634 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:17:52 UTC)" executed successfully
+2024-03-08 06:17:52,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:17:52,658 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:18:02 UTC)" (scheduled at 2024-03-08 02:17:52.656943+00:00)
+2024-03-08 06:17:52,989 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:18:02 UTC)" executed successfully
+2024-03-08 06:18:02,658 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:18:12 UTC)" (scheduled at 2024-03-08 02:18:02.656943+00:00)
+2024-03-08 06:18:04,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
+2024-03-08 06:18:05,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/sendMessage "HTTP/1.1 200 OK"
+2024-03-08 06:18:05,038 - __main__ - INFO - Function: monitor_buys: Got new price:
+<b>RareFiND (FND) BUY!</b>
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+<b>Spent:</b> 0.820 ETH = ($3214.73)
+<b>Got:</b> 146709.47 FND
+<b>Price:</b> 0.021912
+
+<a href='https://etherscan.io/tx/0x82e70618bec5648583397cbbc38713651668b858602416211ff7b1568ea4a2de'>TX</a> | <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x1475Ec80834c6A78f8AfEbB6670993dae632F0f7'>Dex</a>
+2024-03-08 06:18:05,038 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:18:12 UTC)" executed successfully
+2024-03-08 06:18:12,658 - apscheduler.executors.default - INFO - Running job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:18:22 UTC)" (scheduled at 2024-03-08 02:18:12.656943+00:00)
+2024-03-08 06:18:13,206 - apscheduler.executors.default - INFO - Job "monitoring_active (trigger: interval[0:00:10], next run at: 2024-03-08 02:18:22 UTC)" executed successfully
+2024-03-08 06:18:14,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7109655487:AAGSqlv1eEIpZGgXRuNg0h8W0oN-hDwS5A8/getUpdates "HTTP/1.1 200 OK"
