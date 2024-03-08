@@ -83,6 +83,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 ROCKET_EMOJI_DIVIDER = 20
 PORT = int(os.environ.get("PORT", "8443"))
+HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 
 
 def format_swap_message(event):
@@ -198,7 +199,7 @@ def main():
     application.run_webhook(
         listen="0.0.0.0",
         port=PORT,
-        webhook_url="https://rare-buy-bot.herokuapp.com/",
+        webhook_url=f"https://{HEROKU_APP_NAME}.herokuapp.com/",
     )
 
 
