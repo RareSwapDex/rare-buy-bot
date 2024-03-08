@@ -79,8 +79,10 @@ def get_latest_eth_price():
 ## Telegram
 ##############################################################################################
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+TELEGRAM_BOT_TOKEN = int(os.getenv("TELEGRAM_BOT_TOKEN"))
+CHAT_ID = os.getenv(
+    "CHAT_ID",
+)
 ROCKET_EMOJI_DIVIDER = 20
 PORT = int(os.environ.get("PORT", "8443"))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
@@ -151,7 +153,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await context.bot.send_message(
             chat_id=chat_id, text="This bot works only on @rarefnd group."
         )
-        logger.error(
+        logger.warning(
             f"Function: start: This bot works only on @rarefnd group. current chat_id {chat_id}"
         )
 
@@ -174,7 +176,9 @@ async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await context.bot.send_message(
             chat_id=chat_id, text="This bot works only on @rarefnd group."
         )
-        logger.info("Function: stop: This bot works only on @rarefnd group.")
+        logger.warning(
+            f"Function: stop: This bot works only on @rarefnd group. current chat_id {chat_id}"
+        )
 
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
