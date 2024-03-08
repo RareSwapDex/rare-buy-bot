@@ -37,8 +37,10 @@ logger = logging.getLogger(__name__)
 ##############################################################################################
 
 RPC_URL = os.getenv("RPC_URL")
-PAIR_CONTRACT_ADDRESS = os.getenv("PAIR_CONTRACT_ADDRESS")  # fnd pair address
-PRICE_FEED_ADDRESS = os.getenv("PRICE_FEED_ADDRESS")
+PAIR_CONTRACT_ADDRESS = Web3.to_checksum_address(
+    os.getenv("PAIR_CONTRACT_ADDRESS")
+)  # fnd pair address
+PRICE_FEED_ADDRESS = Web3.to_checksum_address(os.getenv("PRICE_FEED_ADDRESS"))
 TOKEN_DECIMALS = os.getenv("TOKEN_DECIMALS")
 with open("./pairAbi.json", "r") as abi_file:
     contract_abi = json.load(abi_file)
