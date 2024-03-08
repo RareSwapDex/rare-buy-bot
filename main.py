@@ -41,7 +41,7 @@ PAIR_CONTRACT_ADDRESS = Web3.to_checksum_address(
     os.getenv("PAIR_CONTRACT_ADDRESS")
 )  # fnd pair address
 PRICE_FEED_ADDRESS = Web3.to_checksum_address(os.getenv("PRICE_FEED_ADDRESS"))
-TOKEN_DECIMALS = os.getenv("TOKEN_DECIMALS")
+TOKEN_DECIMALS = int(os.getenv("TOKEN_DECIMALS"))
 with open("./pairAbi.json", "r") as abi_file:
     contract_abi = json.load(abi_file)
 
@@ -79,9 +79,11 @@ def get_latest_eth_price():
 ## Telegram
 ##############################################################################################
 
-TELEGRAM_BOT_TOKEN = int(os.getenv("TELEGRAM_BOT_TOKEN"))
-CHAT_ID = os.getenv(
-    "CHAT_ID",
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = int(
+    os.getenv(
+        "CHAT_ID",
+    )
 )
 ROCKET_EMOJI_DIVIDER = 20
 PORT = int(os.environ.get("PORT", "8443"))
