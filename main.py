@@ -198,7 +198,6 @@ def main():
     application.run_webhook(
         listen="0.0.0.0",
         port=PORT,
-        secret_token=TELEGRAM_BOT_TOKEN,
         webhook_url="https://rare-buy-bot.herokuapp.com/",
     )
 
