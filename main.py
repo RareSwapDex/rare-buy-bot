@@ -122,6 +122,7 @@ async def monitor_buys(context: ContextTypes.DEFAULT_TYPE) -> None:
     """Monitors swap events and sends Telegram messages."""
     try:
         new_entries = event_filter.get_new_entries()
+        logger.info("Function: monitor_buys: No new events")
         for event in new_entries:
             text = format_swap_message(event)  # Format the message
             if text:
